@@ -1,0 +1,490 @@
+.bx-basket { }
+
+#text {
+width: 0 !important;
+}
+
+
+#bx_basketFKauiI>.bx-hdr-profile>.bx-basket-block:last-child {
+	display:none !important;
+}
+
+.bx-basket-block > a:not(:last-child) {
+margin-right: 40px;
+}
+
+.bx-basket-block {
+	display: inline-block;
+	position: relative;
+	white-space: nowrap;
+	font-size: 14px;
+	font-family: "GilroyRegular";
+	text-align: center;
+}
+
+.bx-basket-block > .fa {
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 12px;
+	color: #97a1ab;
+}
+
+.bx-basket-block a { 
+	margin-right: 10px;
+	font-size: 14px;
+	color: white;
+}
+
+
+/* Общие стили */
+
+.container {
+    max-width: 1100px;
+    padding: 0;
+}
+.col-xl-2 {
+    padding: 0;
+    text-align: center;
+}
+
+.col-xl-4 {
+    padding: 0;
+}
+
+.col-xl-6 {
+    padding: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 523px;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.button {
+    font-family: "GilroyRegular";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    display: inline-block;
+    background-color: #333;
+}
+
+.button:hover {
+    box-shadow: 4px 4px 4px grey;
+}
+
+.button-wrapper {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.section__text {
+    font-size: 21px;
+    text-align: center;
+    font-family: "GilroyRegular";
+    font-weight: 400;
+    line-height: 29.4px;
+}
+
+.section__title {
+    margin-bottom: 60px;
+}
+
+.section__text--white {
+    color: white;
+}
+
+.section__title--white {
+    color: white;
+}
+
+.button-more {
+    margin-top: 60px;
+    padding: 15px 35px;
+}
+
+/* Шапка */
+
+.header {
+    background-color: #333;
+    padding-top: 27px;
+    padding-bottom: 31px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.search-icon {
+    margin-right: 13px;
+}
+
+.navbar-nav {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.navbar-expand-lg {
+    padding: 0;
+}
+
+.nav-link {
+    padding: 0 !important;
+    font-family: "GilroyRegular";
+    font-size: 14px;
+    color: white;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav-account {
+    margin-right: -15px;
+}
+
+/* Секция каталог */
+
+.catalog {
+    padding-top: 100px;
+}
+
+.row-catalog {
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-between;
+}
+
+.catalog__search {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 160px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.catalog__search-item {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 24px;
+    font-family: "GilroyRegular";
+}
+
+.row-cards {
+    padding-top: 95px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.catalog__card-top {
+    align-items: center;
+    text-align: center;
+}
+.catalog__card-top3 {
+    align-items: center;
+    text-align: center;
+}
+
+.catalog__card {
+    align-items: center;
+    text-align: center;
+}
+
+.catalog__card-title {
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-family: "GilroyRegular";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.catalog__card-brand {
+    font-family: "GilroySemiBold";
+    font-size: 24px;
+    line-height: 33px;
+    color: #333;
+}
+
+.row-cards-top {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.catalog__card:nth-child(n + 4) {
+    display: none;
+}
+
+.catalog__card.is-visible {
+    display: block;
+}
+
+.catalog__card-hidden {
+    padding-top: 80px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* Секция рекламы */
+.adversting {
+    margin-top: 150px;
+    padding-bottom: 150px;
+}
+
+#more {
+    display: none;
+}
+
+.adversting__left-text {
+    margin-bottom: 0;
+    max-width: 540px;
+}
+
+#btn {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px dashed;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    font-family: "GilroyMedium";
+    opacity: 1;
+    transition: .3s;
+    height: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.adversting__right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.adversting__right-item {
+    align-items: center;
+    text-align: center;
+}
+.adversting__right-item-title {
+    margin-top: 15px;
+    margin-bottom: 30;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "GilroyRegular";
+}
+
+/* Мэин блок рассылка */
+
+.newsletter {
+    padding-top: 100px;
+    padding-bottom: 125px;
+    background-image: url(../img/saloons-bg.png);
+}
+.newsletter__form {
+    display: flex;
+    background-color: white;
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: 15px;
+    height: 85px;
+    max-width: 418px;
+}
+.newsletter-container {
+    max-width: 776px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter__list-item {
+    color: white;
+    font-size: 18px;
+    font-family: "GilroyRegular";
+    list-style: none;
+    line-height: 25px;
+}
+.newsletter__list-item:not(:last-child) {
+margin-bottom: 15px;
+}
+.newsletter__list {
+    padding: 0;
+}
+.sub-icon {
+    margin-right: 20px;
+}
+form {
+    display: flex;
+    align-items: center;
+}
+.button-newsletter {
+    margin: 0;
+}
+.button-newsletter--black {
+background-color: #333;
+padding: 14px 35px;
+font-size: 14px;
+margin-left: 15px;
+margin-right: 22px;
+font-family: "GilroyMedium";
+letter-spacing: 1.4px;
+}
+.input-mail {
+    height: 51px;
+    max-width: 200px;
+    margin-left: 22px;
+}
+
+/* Футер */
+
+.footer {
+    padding-top: 80px;
+}
+.footer-row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.footer__item {
+    padding: 0;
+}
+
+.footer__line {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.footer__item-title {
+    font-size: 18px;
+    font-family: "GilroyMedium";
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #333;
+}
+
+.footer__item-list-colum {
+    list-style: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "GilroyRegular";
+}
+
+.footer__item-list-colum a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer__item-list-colum img {
+    margin-right: 20px;
+}
+
+.footer__item-list-colum:not(:last-child) {
+    margin-bottom: 15px; 
+}
+
+.footer__item-list {
+    padding: 0;
+}
+
+.footer__item-title-text {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "GilroyRegular";
+}
+
+.footer__item-title-social {
+    margin-top: 22px;
+    margin-right: 25px;
+}
+
+.footer__item-title-social--last {
+    margin-top: 22px;
+}
+
+.visa {
+    margin-right: 20px;
+}
+
+.footer__bottom {
+    font-size: 14px;
+    font-family: "GilroyRegular";
+    line-height: 21px;
+}
+
+.footer__bottom--last {
+    text-decoration: underline;
+    text-align: right;
+}
+
+.col__bottom {
+    padding: 0;
+}
+
+.footer__bottom--second {
+    text-align: center;
+}
+
+.footer__bottom--third {
+    text-align: center;
+}
+
+.footer__item-line {
+    width: 250px;
+}
+.footer__line {
+    max-width: 1100px;
+}
+
+
+.text-collapse .text-collapse-text {
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+    from(rgba(249,249, 249,0.8269)), to(rgba(249,249,249,0)));
+    max-height: 220px;
+
+}
+
+.text-collapse .text-collapse-trigger {
+}
+
+.text-collapse.text-collapse-collapsed .text-collapse-text {
+    max-height: max-content;
+    -webkit-mask-image: none;
+}
+
+.text-collapse.text-collapse-collapsed .text-collapse-trigger {
+}

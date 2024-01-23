@@ -1,0 +1,330 @@
+/* Общие стили */
+
+.container {
+    max-width: 1100px;
+    padding: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+p {
+    margin-bottom: 0;
+}
+.col-xl-8 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.col-xl-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.col-xl-2 {
+    padding: 0;
+    text-align: center;
+}
+.col-xl-3 {
+    padding: 0;
+}
+
+.col-xl-4 {
+    padding: 0;
+}
+
+.col-xl-6 {
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 523px;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: "GilroyMedium";
+    letter-spacing: 2.4px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.button {
+    font-family: "GilroyRegular";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    display: inline-block;
+    background-color: #333;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    box-shadow: 4px 4px 4px grey;
+}
+
+.button-wrapper {
+    text-align: center;
+}
+
+.section__text {
+    font-size: 21px;
+    text-align: center;
+    font-family: "GilroyRegular";
+    font-weight: 400;
+    line-height: 29.4px;
+}
+
+.section__title {
+    margin-bottom: 95px;
+}
+
+.section__text--white {
+    color: white;
+}
+
+.section__title--white {
+    color: white;
+}
+
+.button--white {
+    background-color: white;
+    color: #333;
+    border: 1px solid #333;
+    padding: 9px 19px;
+    margin-left: 30px;
+}
+.card__button {
+    margin-top: 15px;
+}
+
+/* Шапка */
+
+.header {
+    background-color: #333;
+    padding-top: 27px;
+    padding-bottom: 31px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.search-icon {
+    margin-right: 13px;
+}
+
+.navbar-nav {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.navbar-expand-lg {
+    padding: 0;
+}
+
+.nav-link {
+    padding: 0 !important;
+    font-family: "GilroyRegular";
+    font-size: 14px;
+    color: white;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav-account {
+    margin-right: -15px;
+}
+
+
+/* Секция меню */
+
+.menu-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-width: max-content;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+.menu__item {
+    display: flex;
+    align-items: center;
+}
+.menu__item-text {
+    font-size: 14px;
+    font-family: "GilroyRegular";
+    line-height: 21px;
+    text-decoration: underline;
+}
+.menu__item-slash {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.menu__item-text--last {
+    text-decoration: none;
+}
+.contacts-menu__item-title {
+    font-size: 18px;
+    font-family: "GilroySemiBold";
+    line-height: 25px;
+}
+.contacts-menu__item-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 25px;
+}
+.contacts-menu__item-list img {
+    margin-right: 10px;
+}
+.contacts-menu__item-list-colum {
+    font-size: 14px;
+    font-family: "GilroyRegular";
+    line-height: 21px;
+}
+.contacts-menu__item-list-colum--last {
+    margin-top: 15px;
+}
+.main-line {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.menu-map {
+    max-width: 1100px;
+    height: 750px;
+    background-image: url(../img/contact__maps.png);
+    margin-bottom: 120px;
+}
+
+/* Футер */
+
+.footer {
+    padding-top: 80px;
+}
+.footer-row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.footer__item {
+    padding: 0;
+}
+
+.footer__line {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.footer__item-title {
+    font-size: 18px;
+    font-family: "GilroyMedium";
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #333;
+}
+
+.footer__item-list-colum {
+    list-style: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "GilroyRegular";
+}
+
+.footer__item-list-colum a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer__item-list-colum img {
+    margin-right: 20px;
+}
+
+.footer__item-list-colum:not(:last-child) {
+    margin-bottom: 15px; 
+}
+
+.footer__item-list {
+    padding: 0;
+}
+
+.footer__item-title-text {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "GilroyRegular";
+}
+
+.footer__item-title-social {
+    margin-top: 22px;
+    margin-right: 25px;
+}
+
+.footer__item-title-social--last {
+    margin-top: 22px;
+}
+
+.visa {
+    margin-right: 20px;
+}
+
+.footer__bottom {
+    font-size: 14px;
+    font-family: "GilroyRegular";
+    line-height: 21px;
+}
+
+.footer__bottom--last {
+    text-decoration: underline;
+    text-align: right;
+}
+
+.col__bottom {
+    padding: 0;
+}
+
+.footer__bottom--second {
+    text-align: center;
+}
+
+.footer__bottom--third {
+    text-align: center;
+}
+
+.footer__item-line {
+    width: 250px;
+}
+.footer__line {
+    max-width: 1100px;
+}
+

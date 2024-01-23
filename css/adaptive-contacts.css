@@ -1,0 +1,154 @@
+@media (max-width: 1199.98px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .navbar-nav {
+        width: 960px;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    /* Бургер меню */
+    .hidden2 {
+        display: none;
+    }
+
+    .navbar-nav {
+        background-color: #333;
+        padding-right: 650px;
+        margin-top: -100px;
+    }
+
+    .nav-three {
+        display: flex !important;
+        margin-bottom: 10000px;
+        width: 308px;
+        margin-right: 10px;
+    }
+
+    .nav-item-three {
+        margin-right: 0 !important;
+    }
+
+    .nav-link-three {
+        width: 61.5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-top {
+        margin-top: 150px !important;
+        margin-right: 130px;
+    }
+
+    .nav-two {
+        margin-top: 25px;
+        margin-right: 5px;
+        border-bottom: 2px solid white;
+        width: 308px;
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+    }
+
+    .nav-like {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-account {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-register {
+        margin-right: 124px;
+        margin-top: 30px;
+        border-bottom: 2px solid white;
+        padding-bottom: 35px !important;
+        width: 100%;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .nav-link--first {
+        margin-bottom: 30px;
+    }
+
+    .nav-link--second {
+        margin-bottom: 30px;
+    }
+
+    .nav-two {
+        display: flex;
+    }
+
+    .nav-link {
+        font-size: 21px;
+    }
+
+    .navbar-brand {
+        z-index: 1;
+    }
+
+    .navbar-toggler {
+        z-index: 1;
+    }
+
+    /* Конец бургер меню */
+    .container {
+        max-width: 720px;
+    }
+
+    .row-contacts-menu {
+        text-align: center;
+    }
+
+    .footer__bottom {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .menu-map {
+        height: 500px;
+    }
+
+    .footer-row {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__bottom {
+        text-align: center;
+    }
+
+    .footer__item-line {
+        width: 100%;
+    }
+
+    .footer__item-title {
+        margin-top: 30px;
+    }
+
+    .footer {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 310px;
+    }
+
+    .menu-map {
+        height: 300px;
+    }
+}

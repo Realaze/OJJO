@@ -1,0 +1,281 @@
+@media (max-width: 1199.98px) {
+    .container {
+        max-width: 960px;
+    }
+    .navbar-nav {
+        width: 960px;
+    }
+    .row-menu {
+        max-width: 100%;
+    }
+    .product__desc {
+        padding: 30px 20px;
+        max-width: 460px;
+    }
+    .product__images-short {
+        max-width: 150px;
+    }
+    .newsletter-container {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 991.98px) {
+        /* Бургер меню */
+        .hidden2 {
+            display: none;
+        }
+    
+        .navbar-nav {
+            background-color: #333;
+            padding-right: 650px;
+            margin-top: -100px;
+        }
+    
+        .nav-three {
+            display: flex !important;
+            margin-bottom: 10000px;
+            width: 308px;
+            margin-right: 10px;
+        }
+    
+        .nav-item-three {
+            margin-right: 0 !important;
+        }
+    
+        .nav-link-three {
+            width: 61.5px;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .nav-top {
+            margin-top: 150px !important;
+            margin-right: 130px;
+        }
+    
+        .nav-two {
+            margin-top: 25px;
+            margin-right: 5px;
+            border-bottom: 2px solid white;
+            width: 308px;
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+        }
+    
+        .nav-like {
+            width: 40px;
+            height: 40px;
+        }
+    
+        .nav-account {
+            width: 40px;
+            height: 40px;
+        }
+    
+        .nav-register {
+            margin-right: 124px;
+            margin-top: 30px;
+            border-bottom: 2px solid white;
+            padding-bottom: 35px !important;
+            width: 100%;
+        }
+    
+        .nav {
+            display: block;
+        }
+    
+        .nav-link--first {
+            margin-bottom: 30px;
+        }
+    
+        .nav-link--second {
+            margin-bottom: 30px;
+        }
+    
+        .nav-two {
+            display: flex;
+        }
+    
+        .nav-link {
+            font-size: 21px;
+        }
+    
+        .navbar-brand {
+            z-index: 1;
+        }
+    
+        .navbar-toggler {
+            z-index: 1;
+        }
+    
+        /* Конец бургер меню */
+        .container {
+            max-width: 720px;
+        }
+        .product__images-big {
+            background-position: center center;
+        }
+
+        .product__images-short {
+            margin-bottom: 10px;
+            height: 150px;
+            max-width: 360px;
+            background-position: center center;
+            background-size: cover
+        }
+        .product__desc {
+            max-width: 340px;
+            height: 909px;
+        }
+        .product__images-bottom {
+            display: block;
+        }
+        .product__desc-buttons {
+            display: block;
+        }
+        .button--white {
+            margin-left: 0;
+            margin-top: 25px;
+        }
+        .product__desc-title {
+            text-align: center;
+        }
+        .product__desc-price {
+            text-align: center;
+        }
+        .adversting__left {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .adversting__left-text {
+            margin: 0 auto;
+        }
+        .catalog__card {
+            max-width: 360px;
+        }
+        .catalog__card--last {
+            margin-top: 25px;
+        }
+        .newsletter-container {
+            display: block;
+        }
+        .newsletter__form {
+            margin: 0 auto;
+        }
+        .newsletter__list {
+            max-width: 455px;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+        .footer-row {
+            text-align: center;
+        }
+        .footer__bottom--last {
+            text-align: center;
+        }
+        .footer__item-line {
+            margin: 0 auto;
+        }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 540px;
+    }
+    .catalog__card--last {
+        margin-top: 0;
+    }
+    .catalog__card {
+        max-width: 540px;
+        margin-top: 25px;
+    }
+    .adversting__left-text {
+        text-align: justify;
+    }
+    .product__images-short {
+        max-width: 540px;
+        height: 200px;
+    }
+    .product__images-bottom {
+        
+    }
+    .menu__item-text--last {
+        width: 180px;
+    }
+    .menu__item-slash {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .product__desc {
+        margin: 0 auto;
+        margin-top: 25px;
+        max-width: 520px;
+        height: max-content;
+    }
+    .footer-row {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__bottom {
+        text-align: center;
+    }
+
+    .footer__item-line {
+        width: 100%;
+    }
+
+    .footer__item-title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer {
+        padding-top: 40px;
+    }
+
+    .navbar-nav {
+        max-width: 1030px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 310px;
+    }
+    .product__desc {
+        max-width: 290px;
+    }
+    .menu__item-text--last {
+        margin-left: 65px;
+        margin-top: 10px;
+    }
+    form {
+        max-width: 270px;
+        align-items: center;
+        display: block;
+    }
+
+    .newsletter__form {
+        display: block;
+        max-width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        align-items: center;
+        height: 100%;
+        background: none;
+    }
+
+    .input-mail {
+        max-width: 220px;
+        margin-bottom: 15px;
+    }
+    .section__text {
+        max-width: 310px;
+    }
+    .section__title {
+        max-width: 310px;
+    }
+}

@@ -1,0 +1,488 @@
+
+/* Общие стили */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    max-width: 1100px;
+    padding: 0;
+}
+.col-xl-2 {
+    padding: 0;
+    text-align: center;
+}
+.col-xl-4 {
+    padding: 0;
+}
+.col-xl-6 {
+    padding: 0;
+}
+h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 523px;
+    color: white;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    text-align: center;
+}
+.button {
+    font-family: "GilroyRegular";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.8px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 35px;
+    border: 1px solid white;
+    display: inline-block;
+}
+.button:hover {
+    box-shadow: 4px 4px 4px grey;
+}
+.button-wrapper {
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+.section__text {
+    font-size: 21px;
+    text-align: center;
+    font-family: "GilroyRegular";
+    font-weight: 400;
+    line-height: 29.4px;
+}
+.section__title {
+    margin-bottom: 60px;
+}
+.section__text--white {
+    color: white;
+}
+.section__title--white {
+    color: white;
+}
+
+/* Шапка */
+
+.header {
+    background-image: url(../img/bgc.png);
+    background-size: cover;
+    background-position: center center;
+}
+.navbar-toggler {
+    border: none;
+}
+.search-icon {
+    margin-right: 13px;
+}
+.navbar-nav {
+    margin-top: 35px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-expand-lg {
+    padding: 0;
+}
+.nav-link {
+    padding: 0 !important;
+    font-family: "GilroyRegular";
+    font-size: 14px;
+    color: white;
+}
+.navbar-brand {
+    width: 216px;
+    height: 52px;
+    margin: 0;
+    padding: 0;
+}
+.nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+.nav-account {
+    margin-right: -15px;
+}
+.line {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+.header-brands {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.header-brands__item {
+    border-right: 2px solid white;
+}
+
+/* Мэин секция красота */
+
+.beautiful {
+    margin-top: 100px;
+    padding-bottom: 120px;
+}
+.beautiful__btns-link {
+    font-family: "GilroyMedium";
+    text-decoration: none;
+    color: black;
+    padding: 17px 33px;
+    border: 1px solid #D6D6D6;
+    font-size: 18px;
+    box-shadow: 6px 6px 2px 1px white,
+                6px 6px 2px 1px #D6D6D6;
+}
+.beautiful__btns-link--short {
+    padding-left: 51px;
+    padding-right: 51px;
+}
+.beautiful__btns-link--long {
+    padding: 17px 22px;
+}
+.beautiful__btns-link--last {
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.beautiful__btns-link--active {
+    background-color: #333;
+    color: white;
+    box-shadow: none;
+    padding: 20px 41px;
+}
+.row-beautiful-top__img-1 {
+background-image: url(../img/Rectangle\ 5.png);
+background-size: cover;
+height: 280px;
+background-repeat: no-repeat;
+max-width: 350px;
+}
+.beautiful__btns-item {
+    max-width: 165px;
+}
+.beautiful__btns {
+    max-width: 1100px;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-between;
+}
+.row-beautiful-top {
+    max-width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 61px;
+}
+.row-beautiful-top__img-2 {
+    background-image: url(../img/Rectangle\ 6.png);
+    background-size: cover;
+    height: 280px;
+    background-repeat: no-repeat;
+    max-width: 350px;
+}
+.row-beautiful-top__img-3 {
+    background-image: url(../img/Rectangle\ 7.png);
+    background-size: cover;
+    height: 280px;
+    background-repeat: no-repeat;
+    max-width: 350px;
+}
+.row-beautiful-subtitle {
+    font-size: 24px;
+    font-family: "GilroyMedium";
+    color: white;
+    letter-spacing: 2.4px;
+    text-align: center;
+    margin-top: 222px;
+}
+.row-beautiful-bot__img-4 {
+    background-image: url(../img/Rectangle\ 8.png);
+    background-size: cover;
+    height: 280px;
+    background-repeat: no-repeat;
+    max-width: 350px;
+}
+.row-beautiful-bot__img-5 {
+    background-image: url(../img/Rectangle\ 9.png);
+    background-size: cover;
+    height: 280px;
+    background-repeat: no-repeat;
+    max-width: 350px;
+}
+.row-beautiful-bot__img-6 {
+    background-image: url(../img/Rectangle\ 10.png);
+    background-size: cover;
+    height: 280px;
+    background-repeat: no-repeat;
+    max-width: 350px;
+}
+.row-beautiful-bot {
+    max-width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+/* Мэин секция салоны */
+
+.saloons {
+    background-image: url(../img/saloons-bg.png);
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-top: 120px;
+    max-width: 100%;
+}
+.saloons__info {
+    color: white;
+    max-width: 730px;
+    margin: 0 auto;
+    text-align: center;
+}
+.button-wrapper--white {
+    margin-top: 60px;
+}
+.saloons__button {
+    color: black;
+    background-color: white;
+}
+
+/* Мэин секция статьи */
+
+.article {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.row-article {
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+}
+.article__block {
+    max-width: 350px;
+    height: 370px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.img_news {
+}
+
+.article__block-title {
+    font-size: 21px;
+    font-family: "GilroyRegular";
+    text-align: center;
+    color: white;
+    line-height: 29.4px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 200px;
+}
+.button-article {
+    background-color: #333;
+}
+
+#bx_incl_area_7_9 {
+    padding: 0 !important;
+}
+
+/* Мэин блок социальные сети */
+.social {
+    padding-bottom: 150px;
+}
+.row-social {
+    margin-left: 0;
+    margin-right: 0;
+}
+.row-social-top--second {
+    display: flex;
+}
+.row-social-top--first {
+    max-width: 555px;
+}
+.row-social-bot--first {
+    display: flex;
+}
+.row-social-bot--second {
+    max-width: 555px;
+}
+
+/* Мэин блок рассылка */
+
+.newsletter {
+    padding-top: 100px;
+    padding-bottom: 125px;
+    background-image: url(../img/saloons-bg.png);
+}
+.newsletter__form {
+    display: flex;
+    background-color: white;
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: 15px;
+    height: 85px;
+    max-width: 418px;
+}
+.newsletter-container {
+    max-width: 776px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter__list-item {
+    color: white;
+    font-size: 18px;
+    font-family: "GilroyRegular";
+    list-style: none;
+    line-height: 25px;
+}
+.newsletter__list-item:not(:last-child) {
+margin-bottom: 15px;
+}
+.newsletter__list {
+    padding: 0;
+}
+.sub-icon {
+    margin-right: 20px;
+}
+form {
+    display: flex;
+    align-items: center;
+}
+.button-newsletter {
+    margin: 0;
+}
+.button-newsletter--black {
+background-color: #333;
+padding: 14px 35px;
+font-size: 14px;
+margin-left: 15px;
+margin-right: 22px;
+font-family: "GilroyMedium";
+letter-spacing: 1.4px;
+}
+.input-mail {
+    height: 51px;
+    max-width: 200px;
+    margin-left: 22px;
+}
+
+/* Футер */
+
+.footer {
+    padding-top: 80px;
+}
+.footer-row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.footer__item {
+    padding: 0;
+}
+
+.footer__line {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.footer__item-title {
+    font-size: 18px;
+    font-family: "GilroyMedium";
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #333;
+}
+
+.footer__item-list-colum {
+    list-style: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "GilroyRegular";
+}
+
+.footer__item-list-colum a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer__item-list-colum img {
+    margin-right: 20px;
+}
+
+.footer__item-list-colum:not(:last-child) {
+    margin-bottom: 15px; 
+}
+
+.footer__item-list {
+    padding: 0;
+}
+
+.footer__item-title-text {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "GilroyRegular";
+}
+
+.footer__item-title-social {
+    margin-top: 22px;
+    margin-right: 25px;
+}
+
+.footer__item-title-social--last {
+    margin-top: 22px;
+}
+
+.visa {
+    margin-right: 20px;
+}
+
+.footer__bottom {
+    font-size: 14px;
+    font-family: "GilroyRegular";
+    line-height: 21px;
+}
+
+.footer__bottom--last {
+    text-decoration: underline;
+    text-align: right;
+}
+
+.col__bottom {
+    padding: 0;
+}
+
+.footer__bottom--second {
+    text-align: center;
+}
+
+.footer__bottom--third {
+    text-align: center;
+}
+
+.footer__item-line {
+    width: 250px;
+}
+.footer__line {
+    max-width: 1100px;
+}
+
+.hidden-input {
+    display: none !important;
+}

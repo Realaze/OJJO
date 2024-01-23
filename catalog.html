@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Каталог OJJO 2.0</title>
+    <link rel="stylesheet" href=".//fonts/font.css">
+    <link rel="stylesheet" href="css/catalog-style.css">
+    <link rel="stylesheet" href="css/adaptive-catalog.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand d-lg-none" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Переключатель навигации">
+                    <span><img src="img/gg_menu-left-alt.svg" alt=""></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <ul class="nav nav-top">
+                            <li class="nav-item">
+                                <a class="nav-link nav-link--first" href="#">Контрагентам</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link--second" href="#">Дизайнерам</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Вакансии</a>
+                            </li>
+                        </ul>
+                        <a class="navbar-brand navbar-brandfirst d-none d-lg-block" href="index.html">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link search hidden2" aria-current="page" href="#"><img class="search-icon"
+                                        src="img/search.png" alt="search">Поиск</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-register" href="#">Вход/Регистрация</a>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-two">
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-two" href="#"><img src="img/mdi_account.svg"
+                                        class="nav-account" alt="account"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-two" href="#"><img src="img/topcoat_like.svg"
+                                        class="nav-like" alt="like"></a>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-three d-lg-none">
+                            <li class="nav-item nav-item-three">
+                                <a href="#" class="nav-link nav-link-three d-lg-none"><img src="img/youtube-white.png"
+                                        alt=""></a>
+                            </li>
+                            <li class="nav-item nav-item-three">
+                                <a href="#" class="nav-link nav-link-three d-lg-none"><img src="img/vk-white.png"
+                                        alt=""></a>
+                            </li>
+                            <li class="nav-item nav-item-three">
+                                <a href="#" class="nav-link nav-link-three d-lg-none"><img src="img/facebook-white.png"
+                                        alt=""></a>
+                            </li>
+                            <li class="nav-item nav-item-three">
+                                <a href="#" class="nav-link nav-link-three d-lg-none"><img src="img/tg-white.png"
+                                        alt=""></a>
+                            </li>
+                            <li class="nav-item nav-item-three">
+                                <a href="#" class="nav-link nav-link-three d-lg-none"><img src="img/etsy-white.png"
+                                        alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="catalog">
+            <div class="container">
+                <div class="row row-catalog">
+                    <div class="col-xl-2 col-md-6 col-xs-12 catalog__search">
+                        <p class="catalog__search-item">Бренд</p><img src="img/Polygon 3.svg" alt=""
+                            class="catalog__search-dropdown">
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-xs-12 catalog__search">
+                        <p class="catalog__search-item">Цена</p><img src="img/Polygon 3.svg" alt=""
+                            class="catalog__search-dropdown">
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-xs-12 catalog__search">
+                        <p class="catalog__search-item catalog__search-item-whom">Для кого</p><img
+                            src="img/Polygon 3.svg" alt="" class="catalog__search-dropdown">
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-xs-12 catalog__search catalog__search--bot">
+                        <p class="catalog__search-item">Коллекция</p><img src="img/Polygon 3.svg" alt=""
+                            class="catalog__search-dropdown">
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-xs-12 catalog__search catalog__search--bot">
+                        <p class="catalog__search-item">Сезон</p><img src="img/Polygon 3.svg" alt=""
+                            class="catalog__search-dropdown">
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-xs-12 catalog__search catalog__search--bot">
+                        <p class="catalog__search-item">События</p><img src="img/Polygon 3.svg" alt=""
+                            class="catalog__search-dropdown">
+                    </div>
+                </div>
+                <div class="row row-cards row-cards-top">
+                    <div class="col-xl-4 col-lg-6 col-md-12 catalog__card-top">
+                        <a href="product.html">
+                            <img src="img/card-img.png" alt="" class="catalog__card-img">
+                            <p class="catalog__card-title">Подвеска</p>
+                            <h3 class="catalog__card-brand">Dolce & Gabanna</h3>
+                            <div class="button-wrapper">
+                                <a href="#" class="button">175 000 ₽</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 catalog__card-top">
+                        <a href="product.html">
+                            <img src="img/card-img.png" alt="" class="catalog__card-img">
+                            <p class="catalog__card-title">Подвеска</p>
+                            <h3 class="catalog__card-brand">Dolce & Gabanna</h3>
+                            <div class="button-wrapper">
+                                <a href="#" class="button">175 000 ₽</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-12 col-md-12 catalog__card-top3">
+                        <a href="product.html">
+                            <img src="img/card-img.png" alt="" class="catalog__card-img3">
+                            <p class="catalog__card-title">Подвеска</p>
+                            <h3 class="catalog__card-brand">Dolce & Gabanna</h3>
+                            <div class="button-wrapper">
+                                <a href="#" class="button">175 000 ₽</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row row-cards row-cards2">
+                    <div class="col-xl-4 col-lg-6 col-md-12 catalog__card">
+                        <a href="product.html">
+                            <img src="img/card-img.png" alt="" class="catalog__card-img">
+                            <p class="catalog__card-title">Подвеска</p>
+                            <h3 class="catalog__card-brand">Dolce & Gabanna</h3>
+                            <div class="button-wrapper">
+                                <a href="#" class="button">175 000 ₽</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 catalog__card">
+                        <a href="product.html">
+                            <img src="img/card-img.png" alt="" class="catalog__card-img">
+                            <p class="catalog__card-title">Подвеска</p>
+                            <h3 class="catalog__card-brand">Dolce & Gabanna</h3>
+                            <div class="button-wrapper">
+                                <a href="#" class="button">175 000 ₽</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-12 col-md-12 catalog__card">
+                        <a href="product.html">
+                            <img src="img/card-img.png" alt="" class="catalog__card-img3">
+                            <p class="catalog__card-title">Подвеска</p>
+                            <h3 class="catalog__card-brand">Dolce & Gabanna</h3>
+                            <div class="button-wrapper">
+                                <a href="#" class="button">175 000 ₽</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 catalog__card catalog__card-hidden">
+                        <a href="product.html">
+                            <img src="img/card-img.png" alt="" class="catalog__card-img">
+                            <p class="catalog__card-title">Подвеска</p>
+                            <h3 class="catalog__card-brand">Dolce & Gabanna</h3>
+                            <div class="button-wrapper">
+                                <a href="#" class="button">175 000 ₽</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 catalog__card catalog__card-hidden">
+                        <a href="product.html">
+                            <img src="img/card-img.png" alt="" class="catalog__card-img">
+                            <p class="catalog__card-title">Подвеска</p>
+                            <h3 class="catalog__card-brand">Dolce & Gabanna</h3>
+                            <div class="button-wrapper">
+                                <a href="#" class="button">175 000 ₽</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-12 col-md-12 catalog__card catalog__card-hidden">
+                        <a href="product.html">
+                            <img src="img/card-img.png" alt="" class="catalog__card-img3">
+                            <p class="catalog__card-title">Подвеска</p>
+                            <h3 class="catalog__card-brand">Dolce & Gabanna</h3>
+                            <div class="button-wrapper">
+                                <a href="#" class="button">175 000 ₽</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12  catalog__card catalog__card-hidden">
+                        <a href="product.html">
+                            <img src="img/card-img.png" alt="" class="catalog__card-img">
+                            <p class="catalog__card-title">Подвеска</p>
+                            <h3 class="catalog__card-brand">Dolce & Gabanna</h3>
+                            <div class="button-wrapper">
+                                <a href="#" class="button">175 000 ₽</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-12 catalog__card catalog__card-hidden">
+                        <a href="product.html">
+                            <img src="img/card-img.png" alt="" class="catalog__card-img">
+                            <p class="catalog__card-title">Подвеска</p>
+                            <h3 class="catalog__card-brand">Dolce & Gabanna</h3>
+                            <div class="button-wrapper">
+                                <a href="#" class="button">175 000 ₽</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-12 col-md-12 catalog__card catalog__card-hidden">
+                        <a href="product.html">
+                            <img src="img/card-img.png" alt="" class="catalog__card-img3">
+                            <p class="catalog__card-title">Подвеска</p>
+                            <h3 class="catalog__card-brand">Dolce & Gabanna</h3>
+                            <div class="button-wrapper">
+                                <a href="#" class="button">175 000 ₽</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="button-wrapper">
+                    <button class="button-more button">ПОКАЖИТЕ ЕЩЕ</button>
+                </div>
+            </div>
+        </section>
+        <section class="adversting">
+            <div class="container">
+                <div class="row row-adversting">
+                    <div class="col-xl-8 col-lg-6 adversting__left text-collapse">
+                        <p class="adversting__left-text text-collapse-text" id="adversting__left-text">Lorem ipsum dolor
+                            sit amet consectetur
+                            adipisicing elit. Earum, excepturi doloremque consectetur tempore iste dolorum.
+                            Nesciunt aliquid eum ipsam nulla ipsa cumque! Ipsam minima facilis aut? Illum hic
+                            sunt aliquid. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel,
+                            blanditiis ipsum! Iusto dignissimos laudantium laboriosam illum, sed assumenda
+                            minima ducimus quod voluptatum magnam cupiditate. Magnam provident qui aperiam optio
+                            officia.
+                            Nesciunt aliquid eum ipsam nulla ipsa cumque! Ipsam minima facilis aut? Illum hic
+                            sunt aliquid. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel,
+                            blanditiis ipsum! Iusto dignissimos laudantium laboriosam illum, sed assumenda
+                            minima ducimus quod voluptatum magnam cupiditate. Magnam provident qui aperiam optio
+                            officia.
+                            Nesciunt aliquid eum ipsam nulla ipsa cumque! Ipsam minima facilis aut? Illum hic
+                            sunt aliquid. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel,
+                            blanditiis ipsum! Iusto dignissimos laudantium laboriosam illum, sed assumenda
+                            minima ducimus quod voluptatum magnam cupiditate. Magnam provident qui aperiam optio
+                            officia.</p>
+                        <button id="btn" class="text-collapse-trigger">ЧИТАТЬ ПОЛНОСТЬЮ</button>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 adversting__right">
+                        <div class="adversting__right-item">
+                            <img src="img/delivery.svg" alt="">
+                            <p class="adversting__right-item-title">Бесплатная<br> доставка</p>
+                        </div>
+                        <div class="adversting__right-item">
+                            <img src="img/list.svg" alt="">
+                            <p class="adversting__right-item-title">Индивидуальный<br> дизайн</p>
+                        </div>
+                        <div class="adversting__right-item">
+                            <img src="img/ribbon-design.svg" alt="">
+                            <p class="adversting__right-item-title">Бесплатная<br> примерка</p>
+                        </div>
+                        <div class="adversting__right-item">
+                            <img src="img/jewelry.svg" alt="">
+                            <p class="adversting__right-item-title">Личный<br> подход</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <p class="section__text section__text--white">Полезные советы и персональные предложения</p>
+            <h2 class="section__title section__title--white">Эксклюзивная рассылка</h2>
+            <div class="container newsletter-container">
+                <ul class="newsletter__list">
+                    <li class="newsletter__list-item"> <img class="sub-icon" src="img/subscribe__icon.svg" alt="">
+                        Личный менеджер</li>
+                    <li class="newsletter__list-item"> <img class="sub-icon" src="img/subscribe__icon.svg" alt="">
+                        Доставка и оформление</li>
+                    <li class="newsletter__list-item"> <img class="sub-icon" src="img/subscribe__icon.svg" alt="">
+                        Индивидуальный дизайн</li>
+                </ul>
+                <div class="newsletter__form">
+                    <form action="">
+                        <input class="input-mail" type="text" placeholder="ВАШ E-MAIL" />
+                        <div class="button-wrapper button-newsletter">
+                            <a href="#" class="button button-newsletter--black">ОТПРАВИТЬ</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-row">
+                <div class="col-xxl-3 col-xl-3 col-md-6 col-sm-12 col-lg-6 footer__item">
+                    <p class="footer__item-title">ПОЛЕЗНЫЕ ССЫЛКИ</p>
+                    <hr class="footer__item-line">
+                    <ul class="footer__item-list">
+                        <li class="footer__item-list-colum">Доставка</li>
+                        <li class="footer__item-list-colum">Оплата</li>
+                        <li class="footer__item-list-colum">Акции</li>
+                        <li class="footer__item-list-colum">Политика конфиденциальности</li>
+                    </ul>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-md-6 col-sm-12 col-lg-6 footer__item">
+                    <p class="footer__item-title">ОПЛАТА</p>
+                    <hr class="footer__item-line">
+                    <p class="footer__item-title-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.
+                    </p>
+                    <a href="#" class="footer__item-title-pay"><img class="visa" src="img/visa.png" alt="visa"></a>
+                    <a href="#" class="footer__item-title-pay"><img class="mastercard" src="img/mc.png"
+                            alt="mastercard"></a>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-md-6 col-sm-12 col-lg-6 footer__item">
+                    <p class="footer__item-title"><a href="contacts.html">КОНТАКТЫ</a></p>
+                    <hr class="footer__item-line">
+                    <ul class="footer__item-list">
+                        <li class="footer__item-list-colum"><a href=""><img src="img/entypo_old-phone.svg" alt="">8
+                                (812) 234-56-55</a></li>
+                        <li class="footer__item-list-colum"><a href=""><img src="img/entypo_old-phone.svg" alt="">8(
+                                812) 234-56-55</a></li>
+                        <li class="footer__item-list-colum"><a href=""><img src="img/entypo_mail.svg"
+                                    alt="">ojjo@ojjo.ru</a></li>
+                    </ul>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-md-6 col-sm-12 col-lg-6 footer__item">
+                    <p class="footer__item-title">СОЦИАЛЬНЫЕ СЕТИ</p>
+                    <hr class="footer__item-line">
+                    <p class="footer__item-title-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.
+                    </p>
+                    <a href="#"><img src="img/carbon_logo-youtube.svg" alt="" class="footer__item-title-social"></a>
+                    <a href="#"><img src="img/entypo-social_vk.svg" alt="" class="footer__item-title-social"></a>
+                    <a href="#"><img src="img/bx_bxl-facebook.svg" alt="" class="footer__item-title-social"></a>
+                    <a href="#"><img src="img/bx_bxl-telegram.svg" alt="" class="footer__item-title-social"></a>
+                    <a href="#"><img src="img/simple-icons_etsy.svg" alt="" class="footer__item-title-social--last"></a>
+                </div>
+                <hr class="footer__line">
+            </div>
+            <div class="row footer-row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-6 col__bottom">
+                    <p class="footer__bottom">(c) 2020 OJJO jewelry</p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-6 col__bottom">
+                    <p class="footer__bottom footer__bottom--second">Договор публичной офферты</p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-6 col__bottom">
+                    <p class="footer__bottom footer__bottom--third">Контрагентам</p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-6 col__bottom">
+                    <p class="footer__bottom footer__bottom--last">Сделано Figma.info</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="js/show-more.js"></script>
+    <script src="js/read-more.js"></script>
+</body>
+</html>
